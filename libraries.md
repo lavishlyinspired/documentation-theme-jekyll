@@ -90,6 +90,15 @@ contract TestLibrary {
 <td markdown="span">Some more descriptive text.
 </td>
 </tr>
+    <tr>
+<td markdown="span">import</td>
+<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+</tr>
+<tr>
+<td markdown="span">using</td>
+<td markdown="span">Some more descriptive text.
+</td>
+</tr>
 </tbody>
 </table> 
 
