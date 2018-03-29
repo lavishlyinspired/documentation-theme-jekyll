@@ -1,5 +1,5 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "Getting started with the solidity Development"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
