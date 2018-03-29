@@ -6,7 +6,7 @@ sidebar: mydoc_sidebar
 permalink: index.html
 summary: These brief instructions will help you get started quickly with the solidity development.
 ---
-{% include image.html file="2.png" url="https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/U5dtooptTXZuzKxqKbefSR9grZ6iUXc_1680x8400" alt="2" caption="This is a sample caption" %}
+
 
 ## Introduction
 
@@ -59,12 +59,24 @@ function is a keyword.It is declared each time a new function is created.
 
 * Launch http://remix.ethereum.org
 * Create a file SimpleStorage.sol. This filename is same as Contract name.
+
+{% include image.html file="2.png"  alt="2" caption="" %}
+
 * On the right-hand side select run tab.
 * Below run tab Select Environment as JavaScript VM.
 * Click Create.Leave other fields populated.
+
+{% include image.html file="5.png"  alt="5" caption="" %}
+
 * Contract gets executed with a new contract address. Enter an integer value in the text box beside setter method set label.
 * Click Set label
 * click getter method get label.
+
+{% include image.html file="8.png"  alt="8" caption="" %}
+
+
   You can observe the details of the executed contract on the transaction debugger as shown below.Click on the Details button to expand.
 * Transactions SimpleStorage.set method. 
+{% include image.html file="10.png"  alt="10" caption="" %}
 * Transactions SimpleStorage.get method
+{% include image.html file="11.png"  alt="11" caption="" %}
