@@ -51,7 +51,22 @@ function is a keyword.It is declared each time a new function is created.
 * 'public' makes externally readable (not writeable) by users or contracts. "private" means that other contracts can't directly query balances but data is still viewable to other parties on blockchain
 * constant return (uint)-  The function get() results in the constant  (of type uint256) 
 
-### 1. Download the theme
+
+
+### Steps to execute the above contract in Solidity Remix
+
+
+* Launch http://remix.ethereum.org
+* Create a file SimpleStorage.sol. This filename is same as Contract name.
+* On the right-hand side select run tab.
+* Below run tab Select Environment as JavaScript VM.
+* Click Create.Leave other fields populated.
+* Contract gets executed with a new contract address. Enter an integer value in the text box beside setter method set label .
+* Click Set label
+* click getter method get label.
+  You can observe the details of the executed contract on the transaction debugger as shown below.Click on the Details button to expand.
+* Transactions SimpleStorage.set method. 
+* Transactions SimpleStorage.get method
 
 First download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
 
