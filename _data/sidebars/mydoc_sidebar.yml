@@ -51,45 +51,6 @@ entries:
     folderitems:
      
 
-        - title: My Picks
-          url: /index.html
-          output: web, pdf
-          type: homepage
-          
-          
-    - title: Hyperledger and Saw tooth
-    output: web, pdf
-    folderitems:
-     
-
-        - title: Concepts
-          url: /index.html
-          output: web, pdf
-          type: homepage
-          
-           
-    - title:Books , Blog, Videos s & Refernces
-    output: web, pdf
-    folderitems:
-     
-
-        - title: My Picks
-          url: /index.html
-          output: web, pdf
-          type: homepage
-          
-     
-     - title:Project
-    output: web, pdf
-    folderitems:
-     
-
-        - title: MyFirstProject
-          url: /index.html
-          output: web, pdf
-          type: homepage
-     
-   
       
              
        
