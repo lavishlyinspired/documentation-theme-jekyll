@@ -67,7 +67,8 @@ contract TestLibrary {
 
 ### Keywords
 
-```html
+
+**Result:**
 <table>
 <colgroup>
 <col width="30%" />
@@ -75,7 +76,7 @@ contract TestLibrary {
 </colgroup>
 <thead>
 <tr class="header">
-<th>Keyword</th>
+<th>Field</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -89,18 +90,8 @@ contract TestLibrary {
 <td markdown="span">Some more descriptive text.
 </td>
 </tr>
-    <tr>
-<td markdown="span">import</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-</tr>
-<tr>
-<td markdown="span">using</td>
-<td markdown="span">Some more descriptive text.
-</td>
-</tr>
 </tbody>
-</table>
-```
+</table> 
 
 
 ### Concepts:
