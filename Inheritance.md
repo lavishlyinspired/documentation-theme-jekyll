@@ -12,15 +12,15 @@ summary: These brief instructions will help you get started quickly with the sol
 
 In this chapter, I will be discussing the following topics.
 
-*Visibility  and Modifiers.
-*Constructors.
-*Abstract Contracts and Interface.
-*Visibility  and Modifiers.
-*An example illustrating Inheritance in solidity.
-*Use remix compiler to debug and run custom contract in the example above.
-*Multiple Inheritance and Linearization.
-*Inheriting Different Kinds of Members of the Same Name.
-*Arguments for Base constructors
+* Visibility  and Modifiers.
+* Constructors.
+* Abstract Contracts and Interface.
+* Visibility  and Modifiers.
+* An example illustrating Inheritance in solidity.
+* Use remix compiler to debug and run custom contract in the example above.
+* Multiple Inheritance and Linearization.
+* Inheriting Different Kinds of Members of the Same Name.
+* Arguments for Base constructors
 
 
 ## Inheritance in Depth
@@ -55,10 +55,10 @@ There are four types of visibilities for functions and state variables.
 ```
 Functions can be specified as being external, public, internal or private, where the default ispublic. For state variables, external is not possible and the default is internal. .
 ```
-*public - all can access
-*external - Cannot be accessed internally, only externally
-*internal - only this contract and contracts deriving from it can access
-*private - can be accessed only from this contract
+* public - all can access
+* external - Cannot be accessed internally, only externally
+* internal - only this contract and contracts deriving from it can access
+* private - can be accessed only from this contract
 
 ## Code
 ### An example illustrating Inheritance in solidity
