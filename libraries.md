@@ -83,7 +83,7 @@ contract TestLibrary {
 <tbody>
 <tr>
 <td markdown="span">library</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+<td markdown="span">Solidity provides the concept of Libraries to create reusable code that can be called from different contracts. You can think of library to be similar to static functions in a static class in other object oriented programming languages. Libraries like contracts have to be deployed in order to be used</td>
 </tr>
 <tr>
 <td markdown="span">_self</td>
@@ -92,7 +92,7 @@ contract TestLibrary {
 </tr>
     <tr>
 <td markdown="span">import</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
+<td markdown="span">Solidity allows a source file to import other source files</td>
 </tr>
 <tr>
 <td markdown="span">using</td>
