@@ -55,8 +55,3 @@ entries:
       output: web, pdf
       type: homepage
       
-      - title: concepts and usage
-      url: /Inheritance.html
-      output: web, pdf
-      type: homepage
-      
