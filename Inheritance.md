@@ -10,73 +10,155 @@ summary: These brief instructions will help you get started quickly with the sol
 
 ## Introduction
 
-let us begin with the most basic example. It is fine if you do not understand everything right now, we will go into more detail later.
+In this chapter, I will be discussing the following topics.
 
-### A Simple Smart Contract
+*Inheritance in depth.
+*Visibility  and Modifiers.
+*Constructors.
+*Abstract Contracts and Interface.
+*Visibility  and Modifiers.
+*An example illustrating Inheritance in solidity.
+*Use remix compiler to debug and run custom contract in the example above.
+*Multiple Inheritance and Linearization.
+*Inheriting Different Kinds of Members of the Same Name.
+*Arguments for Base constructors
+
+### Inheritance in Depth
+
+There could be many documents or online sources available explaining Inheritance in solidity, But I will try to keep the explanation here as simple as I can.
+```
+In Solidity, inheritance is much similar to inheritance in oriented object programming languages. You’ll first write your base contract and tell that your new contract will inherit from the base one.
+```
+You also have to know that Solidity supports multiple inheritances by copying code including polymorphism. All function calls are virtual, which means that the most derived function is called, except when the contract name is explicitly given. When a contract inherits from multiple contracts, only a single contract is created on the blockchain, and the code from all the base contracts is copied into the created contract.
+
+
+### Function Modifiers
+
+They can automatically check a condition prior to executing the function.
+### Constructors
+
+A constructor is an optional function with the same name as the contract which is executed upon contract creation.
+Constructor functions can be either public or internal.
+
+
+### Abstract Contracts and Interface
+
+If a contract does not implement all functions it can only be used as an interface.
+These abstract contracts are only provided to make the interface known to the compiler. Note the function without a body.
+If a contract does not implement all functions it can only be used as an interface.
+
+### Visibility and Modifiers
+
+
+There are four types of visibilities for functions and state variables.
+
+```
+Functions can be specified as being external, public, internal or private, where the default ispublic. For state variables, external is not possible and the default is internal. .
+```
+*public - all can access
+*external - Cannot be accessed internally, only externally
+*internal - only this contract and contracts deriving from it can access
+*private - can be accessed only from this contract
+
+### An example illustrating Inheritance in solidity
 
 <pre>
----
 pragma solidity ^0.4.0;
+contract Bank{
+ uint private value;
+ 
+ function Bank(uint amount){
+ value = amount;
+ }
+ 
+ function deposit(uint amount)
+ {
+ value +=amount;
+ }
+ function withdraw(uint amount)
+ {
+ value -=amount;
+ }
+ function balance() returns (uint)
+ {
+ return value;
+ }
+}
+contract Person is Bank(10){
+ string private name;
+ uint age;
+ function setName(string newName){
+ name = newName;
+ }
+ function getName() returns (string){
+ return name;
+ }
+ function setage(uint newage){
+ age = newage;
+ }
+ function getAge() returns (uint){
+ return age;
+ 
+ }
+}
+</pre>
+```
+In the above example value is declared private.Hence it can not be accessed by child contract(Person)
+```
 
+<pre>
+function balance() returns (uint)
+{
+return value;
+}
+ 
+ 
+```
+In the above example if the value is declared internal. it can only be accessed by child contract(Person)
+```
 
-
-contract SimpleStorage {
-
-    uint storedData;
-
-
-
-    function set(uint x) public {
-
-        storedData = x;
-
-    }
-
-
-
-    function get() public constant returns (uint) {
-
-        return storedData;
-
-    }
+contract TestInternal {
+ 
+function balance() returns (uint)
+{
+return value;
 
 }
----
+ 
+}
 </pre>
 
-* Keyword pragma solidity ^0.4.0; means Declare the source file compiler version.the source code is written for Solidity version 0.4.0 or anything newer that does not break functionality (up to, but not including, version 0.5.0). This is to ensure that the contract does not suddenly behave differently with a new compiler version.
-* 'contract' has similarities to 'class' in other languages (class variables, inheritance, etc. SimpleStorage is a class name with the first name in Capital Letter.
-* The line uint storedData;declares a state variable called storedData of type uint (unsigned integer of 256 bits).
-function is a keyword.It is declared each time a new function is created.
-* set and get can be used to modify or retrieve the value of the variable.
-* 'public' makes externally readable (not writeable) by users or contracts. "private" means that other contracts can't directly query balances but data is still viewable to other parties on blockchain
-* constant return (uint)-  The function get() results in the constant  (of type uint256) 
 
+# Implementing Interfaces:
+function loan is declared in Bank contract but is left unimplemented.It should be implemented in the inherited contract before executing the contract, otherwise an error message will be displayed saying
 
+ ```This contract does not implement all functions and thus cannot be created.```
+ 
+```js
+function loan() returns (bool);
+````
+ 
+ ### Interface Example
+ 
+ This is how we declare an interface
+<pre>
+pragma solidity ^0.4.0;
+interface Regulator{ 
+function loan() returns (bool);
+}
 
-### Steps to execute the above contract in Solidity Remix
+contract Bank is Regulator{
+uint internal value;
+....
+....
+....
+</pre>
+ 
+### Interface Implementation
+<pre>
+function loan() returns (bool)
+ {
+ return true;
+ }
+</pre>
 
-
-* Launch http://remix.ethereum.org
-* Create a file SimpleStorage.sol. This filename is same as Contract name.
-
-{% include image.html file="2.png"  alt="2" caption="" %}
-
-* On the right-hand side select run tab.
-* Below run tab Select Environment as JavaScript VM.
-* Click Create.Leave other fields populated.
-
-{% include image.html file="5.png"  alt="5" caption="" %}
-
-* Contract gets executed with a new contract address. Enter an integer value in the text box beside setter method set label.
-* Click Set label
-* click getter method get label.
-
-{% include image.html file="8.png"  alt="8" caption="" %}
-
-
-  You can observe the details of the executed contract on the transaction debugger as shown below.Click on the Details button to expand.
-* Transactions SimpleStorage.set method. 
-{% include image.html file="10.png"  alt="10" caption="" %}
-* Transactions SimpleStorage.get method
-{% include image.html file="11.png"  alt="11" caption="" %}
