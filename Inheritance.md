@@ -1,4 +1,3 @@
-
 ---
 title: "Getting started with the Solidity Development"
 keywords: sample homepage
