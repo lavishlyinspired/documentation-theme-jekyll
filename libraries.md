@@ -67,10 +67,10 @@ contract TestLibrary {
 
 ### Keywords
 ``
-* library
-* _self
-* import
-* using
+ library
+ _self
+ import
+ using
 ```
 
 ### Concepts
