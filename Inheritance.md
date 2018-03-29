@@ -8,7 +8,7 @@ summary: These brief instructions will help you get started quickly with the sol
 ---
 
 
-## Introduction
+## Inheritance
 
 In this chapter, I will be discussing the following topics.
 
@@ -129,7 +129,7 @@ return value;
 </pre>
 
 
-# Implementing Interfaces:
+ ###  Interface:
 function loan is declared in Bank contract but is left unimplemented.It should be implemented in the inherited contract before executing the contract, otherwise an error message will be displayed saying
 
  ```This contract does not implement all functions and thus cannot be created.```
@@ -154,7 +154,7 @@ uint internal value;
 ....
 </pre>
  
-### Interface Implementation
+### Implementation
 <pre>
 function loan() returns (bool)
  {
