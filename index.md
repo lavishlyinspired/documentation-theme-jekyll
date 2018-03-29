@@ -6,6 +6,7 @@ sidebar: mydoc_sidebar
 permalink: index.html
 summary: These brief instructions will help you get started quickly with the solidity development.
 ---
+{% include image.html file="jekyll.png" url="http://jekyllrb.com" alt="Jekyll" caption="This is a sample caption" %}
 
 ## Introduction
 
