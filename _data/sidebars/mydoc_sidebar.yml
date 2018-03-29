@@ -33,6 +33,14 @@ entries:
       output: web, pdf
       type: homepage
       
+      
+    - title: Inheritance
+      url: /modifiers.html
+      output: web, pdf
+      type: homepage
+      
+      
+      
     - title: Introduction
       url: /mydoc_introduction.html
       output: web, pdf
