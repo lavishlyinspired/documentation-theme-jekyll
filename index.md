@@ -43,6 +43,14 @@ contract SimpleStorage {
 ---
 </pre>
 
+* Keyword pragma solidity ^0.4.0; means Declare the source file compiler version.the source code is written for Solidity version 0.4.0 or anything newer that does not break functionality (up to, but not including, version 0.5.0). This is to ensure that the contract does not suddenly behave differently with a new compiler version.
+* 'contract' has similarities to 'class' in other languages (class variables, inheritance, etc. SimpleStorage is a class name with the first name in Capital Letter.
+* The line uint storedData;declares a state variable called storedData of type uint (unsigned integer of 256 bits).
+function is a keyword.It is declared each time a new function is created.
+* set and get can be used to modify or retrieve the value of the variable.
+* 'public' makes externally readable (not writeable) by users or contracts. "private" means that other contracts can't directly query balances but data is still viewable to other parties on blockchain
+* constant return (uint)-  The function get() results in the constant  (of type uint256) 
+
 ### 1. Download the theme
 
 First download or clone the theme from the [Github repo](https://github.com/tomjoht/documentation-theme-jekyll). Most likely you won't be pulling in updates once you start customizing the theme, so downloading the theme (instead of cloning it) probably makes the most sense. In Github, click the **Clone or download** button, and then click **Download ZIP**.
