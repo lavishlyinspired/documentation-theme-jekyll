@@ -1,5 +1,5 @@
 ---
-title: "Getting started with the Solidity Development"
+title: "Import and Libraries"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
@@ -62,3 +62,12 @@ contract TestLibrary {
     }
 }
 </pre>
+
+## Keywords and Concepts
+``
+library
+_self
+import
+using
+``
+
