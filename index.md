@@ -6,7 +6,7 @@ sidebar: mydoc_sidebar
 permalink: index.html
 summary: These brief instructions will help you get started quickly with the solidity development.
 ---
-{% include image.html file="jekyll.png" url="https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/U5dtooptTXZuzKxqKbefSR9grZ6iUXc_1680x8400" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="2.png" url="https://steemit-production-imageproxy-thumbnail.s3.amazonaws.com/U5dtooptTXZuzKxqKbefSR9grZ6iUXc_1680x8400" alt="Jekyll" caption="This is a sample caption" %}
 
 ## Introduction
 
