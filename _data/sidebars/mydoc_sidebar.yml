@@ -34,11 +34,16 @@ entries:
       type: homepage
       
       
-    - title: Inheritance
+    - title: Modifiers
       url: /modifiers.html
       output: web, pdf
       type: homepage
       
+       
+    - title: Imports and Libraries
+      url: /libraries.html
+      output: web, pdf
+      type: homepage
       
       
     - title: Introduction
