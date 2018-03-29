@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Jekyll Doc Theme
-  version: 6.0
+  product: 
+  version: 
   folders:
 
   - title:
@@ -45,11 +45,15 @@ entries:
       output: web, pdf
       type: homepage
       
-      
-  - title:Dapps
+  
+  - title: Overview
     output: web, pdf
     folderitems:
-     
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
       
              
