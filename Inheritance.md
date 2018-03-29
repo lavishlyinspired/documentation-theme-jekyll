@@ -129,8 +129,7 @@ return value;
 }
 </pre>
 
-
- ##  Interface:
+## Interface
 function loan is declared in Bank contract but is left unimplemented.It should be implemented in the inherited contract before executing the contract, otherwise an error message will be displayed saying
 
  ```This contract does not implement all functions and thus cannot be created.```
@@ -139,7 +138,7 @@ function loan is declared in Bank contract but is left unimplemented.It should b
 function loan() returns (bool);
 ````
  
- ### Interface Example
+### Interface Example
  
  This is how we declare an interface
 <pre>
