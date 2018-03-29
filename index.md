@@ -1,5 +1,5 @@
 ---
-title: "Getting started with the Documentation Theme for Jekyll"
+title: "Getting started with the Solidity Development"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
@@ -407,4 +407,3 @@ If you want to use an automated system for managing links, see [Automated Links]
 
 The content here is just a getting started guide only. For other details in working with the theme, see the various sections in the sidebar.
 
-{% include links.html %}
