@@ -157,3 +157,7 @@ This would load the `mydoc_sidebar` for each file in **pages/mydoc**. You could 
 
 For more detail on the sidebar, see [Sidebar navigation][mydoc_sidebar_navigation].
 
+```js
+console.log('hello');
+````
+
