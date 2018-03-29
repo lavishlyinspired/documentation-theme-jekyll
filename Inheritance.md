@@ -8,11 +8,10 @@ summary: These brief instructions will help you get started quickly with the sol
 ---
 
 
-## Inheritance
+## Inheritance: Introduction
 
 In this chapter, I will be discussing the following topics.
 
-*Inheritance in depth.
 *Visibility  and Modifiers.
 *Constructors.
 *Abstract Contracts and Interface.
@@ -23,7 +22,8 @@ In this chapter, I will be discussing the following topics.
 *Inheriting Different Kinds of Members of the Same Name.
 *Arguments for Base constructors
 
-### Inheritance in Depth
+
+## Inheritance in Depth
 
 There could be many documents or online sources available explaining Inheritance in solidity, But I will try to keep the explanation here as simple as I can.
 ```
@@ -60,6 +60,7 @@ Functions can be specified as being external, public, internal or private, where
 *internal - only this contract and contracts deriving from it can access
 *private - can be accessed only from this contract
 
+## Code
 ### An example illustrating Inheritance in solidity
 
 <pre>
@@ -129,7 +130,7 @@ return value;
 </pre>
 
 
- ###  Interface:
+ ##  Interface:
 function loan is declared in Bank contract but is left unimplemented.It should be implemented in the inherited contract before executing the contract, otherwise an error message will be displayed saying
 
  ```This contract does not implement all functions and thus cannot be created.```
