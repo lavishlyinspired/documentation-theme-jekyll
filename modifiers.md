@@ -100,7 +100,7 @@ contract TestThrows {
 }
 </pre>
 
-###Obtaining owner's contract address
+### Obtaining owner's contract address
 
 <pre>
 contract Bank is Regulator {
@@ -153,7 +153,7 @@ Let's add it to the deposit() and withdraw() function:
  </pre>
  
  
-### Conclusion: Debugging in Remix
+### Debugging in Remix
 
 * If you want to give it a go in the Remix IDE, click the Create button to create the contract. Then, specify 20 in the deposit function text field on the right of the IDE and click on the function name to set it.
 
