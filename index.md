@@ -4,14 +4,44 @@ keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: index.html
-summary: These brief instructions will help you get started quickly with the theme. The other topics in this help provide additional information and detail about working with other aspects of this theme and Jekyll.
+summary: These brief instructions will help you get started quickly with the solidity development.
 ---
 
-{% include note.html content="If you're cloning this theme, you're probably writing documentation of some kind. I have a blog on technical writing here called <a alt='technical writing blog' href='http://idratherbewriting.com'>I'd Rather Be Writing</a>. If you'd like to stay updated with the latest trends, best practices, and other methods for writing documentation, consider <a href='https://tinyletter.com/tomjoht'>subscribing</a>. I also have a site on <a href='http://idratherbewriting.com/learnapidoc'>writing API documentation</a>." %}
+## Introduction
 
-## Build the Theme
+let us begin with the most basic example. It is fine if you do not understand everything right now, we will go into more detail later.
 
-Follow these instructions to build the theme.
+### A Simple Smart Contract
+
+<pre>
+---
+pragma solidity ^0.4.0;
+
+
+
+contract SimpleStorage {
+
+    uint storedData;
+
+
+
+    function set(uint x) public {
+
+        storedData = x;
+
+    }
+
+
+
+    function get() public constant returns (uint) {
+
+        return storedData;
+
+    }
+
+}
+---
+</pre>
 
 ### 1. Download the theme
 
@@ -76,13 +106,31 @@ If you want to shorten this long command, you can put this code in a file such a
 
 <pre>
 ---
-title: Alerts
-tags: [formatting]
-keywords: notes, tips, cautions, warnings, admonitions
-last_updated: July 3, 2016
-summary: "You can insert notes, tips, warnings, and important alerts in your content. These notes are stored as shortcodes made available through the linksrefs.hmtl include."
-<span class="red">sidebar: mydoc_sidebar</span>
-permalink: mydoc_alerts
+pragma solidity ^0.4.0;
+
+
+
+contract SimpleStorage {
+
+    uint storedData;
+
+
+
+    function set(uint x) public {
+
+        storedData = x;
+
+    }
+
+
+
+    function get() public constant returns (uint) {
+
+        return storedData;
+
+    }
+
+}
 ---
 </pre>
 {% include note.html content="If you have just one character of spacing off, Jekyll won't build due to the YAML syntax error. You'll see an error message in your console that says \"Error ... did not find expected key while parsing a block mapping at line 22 column 5. Error: Run jekyll build --trace for more information.\" If you encounter this, it usually refers to incorrect indentation or spacing in the YAML file. See the example mydoc_sidebar.yml file to see where your formatting went wrong." %}
