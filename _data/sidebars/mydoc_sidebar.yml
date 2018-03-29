@@ -46,7 +46,7 @@ entries:
       type: homepage
       
   
-  - title: Overview
+  - title: Dapps
     output: web, pdf
     folderitems:
 
@@ -55,13 +55,53 @@ entries:
       output: web, pdf
       type: homepage
       
-      - title: Inheritance
+      - title: concepts
       url: /Inheritance.html
       output: web, pdf
       type: homepage
       
+- title: Hyperledger and Saw tooth
+    output: web, pdf
+    folderitems:
 
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
       
+      - title: concepts
+      url: /Inheritance.html
+      output: web, pdf
+      type: homepage
+      
+      
+ - title:Books , Blog, Videos s & Refernces
+    output: web, pdf
+    folderitems:
+
+    - title:  My Picks
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+      - title: concepts
+      url: /Inheritance.html
+      output: web, pdf
+      type: homepage
              
+             
+  - title:Project
+    output: web, pdf
+    folderitems:
+
+    - title: MyFirstProject
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+      - title: concepts
+      url: /Inheritance.html
+      output: web, pdf
+      type: homepage
        
 
