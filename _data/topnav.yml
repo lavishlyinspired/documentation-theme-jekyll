@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://lavishlyinspired.github.io/teach-me-blockchian
+      external_url: https://github.com/lavishlyinspired/teach-me-blockchian
     - title: News
       url: /news
 
