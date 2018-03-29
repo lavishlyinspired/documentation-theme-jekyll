@@ -54,6 +54,12 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+      
+      - title: Inheritance
+      url: /Inheritance.html
+      output: web, pdf
+      type: homepage
+      
 
       
              
