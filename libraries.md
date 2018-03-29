@@ -3,7 +3,7 @@ title: "Getting started with the Solidity Development"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
-permalink: libraries.html
+permalink: libraries
 summary: These brief instructions will help you get started quickly with the solidity development.
 ---
 
