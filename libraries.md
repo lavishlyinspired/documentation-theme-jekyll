@@ -85,18 +85,13 @@ contract TestLibrary {
 <td markdown="span">library</td>
 <td markdown="span">Solidity provides the concept of Libraries to create reusable code that can be called from different contracts. You can think of library to be similar to static functions in a static class in other object oriented programming languages. Libraries like contracts have to be deployed in order to be used</td>
 </tr>
-<tr>
-<td markdown="span">_self</td>
-<td markdown="span">Some more descriptive text.
-</td>
-</tr>
     <tr>
 <td markdown="span">import</td>
 <td markdown="span">Solidity allows a source file to import other source files</td>
 </tr>
 <tr>
-<td markdown="span">using</td>
-<td markdown="span">Some more descriptive text.
+<td markdown="span">using for</td>
+<td markdown="span">The directive using A for B; can be used to attach library functions (from the library A) to any type (B). These functions will receive the object they are called on as their first parameter (like the self variable in Python).
 </td>
 </tr>
 </tbody>
