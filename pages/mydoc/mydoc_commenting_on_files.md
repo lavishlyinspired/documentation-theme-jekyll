@@ -19,13 +19,6 @@ There's an Edit me button on each page on this theme. This button allows collabo
 Here's the code for that button on the page.html layout for GitHub:
 
 
-```
-{% raw %}{% if site.github_editme_path %}
-
-<a target="_blank" href="https://github.com/{{site.github_editme_path}}/{{page.folder}}{{page.url | append: ".md"}}{% endif %}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> </a>
-
-{% endif %}{% endraw %}
-```
 
 and here for GitLab:
 
