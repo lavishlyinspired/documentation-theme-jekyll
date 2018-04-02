@@ -218,6 +218,16 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+      
+  - title: Game Development using Solidity 
+    output: web, pdf
+    folderitems: 
+
+    - title: Getting Started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
 
 
 
