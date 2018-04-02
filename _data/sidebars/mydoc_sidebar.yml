@@ -209,7 +209,7 @@ entries:
       output: web, pdf
       type: homepage
     
-  - title: A 
+  - title:Hyperledger 
     output: web, pdf
     folderitems:
     
@@ -218,7 +218,7 @@ entries:
       output: web, pdf
       type: homepage
     
-  - title: B 
+  - title: Sawtooth
     output: web, pdf
     folderitems:
     
