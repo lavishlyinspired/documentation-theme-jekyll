@@ -59,7 +59,7 @@ entries:
    
                      
     - title: typeconversion
-      url: /datatypes-and-arrays.html
+      url: /typeconversion.html
       output: web, pdf
       type: homepage
        
