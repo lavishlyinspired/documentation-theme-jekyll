@@ -162,6 +162,17 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+      
+      
+                 
+  - title: Books/Resources/PDF/ Links
+    output: web, pdf
+    folderitems: 
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
 
   - title: Sawtooth
