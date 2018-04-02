@@ -203,34 +203,30 @@ entries:
   - title: Game Development using Solidity 
     output: web, pdf
     folderitems: 
-
+    
     - title: Getting Started
       url: /index.html
       output: web, pdf
       type: homepage
-      
-      
-  - title: Game Development using Solidity 
+    
+  - title: A 
     output: web, pdf
-    folderitems: 
-
+    folderitems:
+    
     - title: Getting Started
       url: /index.html
       output: web, pdf
       type: homepage
-      
-  - title: Game Development using Solidity 
+    
+  - title: B 
     output: web, pdf
-    folderitems: 
-
+    folderitems:
+    
     - title: Getting Started
       url: /index.html
       output: web, pdf
-      type: homepage     
+      type: homepage
+
+  
       
-      
- 
-      
-      
-   
-      
+     
