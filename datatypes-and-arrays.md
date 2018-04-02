@@ -4,7 +4,7 @@ keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
 permalink: datatypes-and-arrays
-summary: These brief instructions will help you get started quickly with the solidity development.
+summary: These brief instructions will help you get started quickly with the solidity development
 ---
 
 
