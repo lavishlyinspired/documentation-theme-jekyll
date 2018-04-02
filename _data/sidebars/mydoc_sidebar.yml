@@ -78,27 +78,8 @@ entries:
     - title: Getting started
       url: /index.html
       output: web, pdf
-      type: homepage   
-   
-     
-   - title: Develop an ICO or crowd sale
-    output: web, pdf
-    folderitems:
-
-    - title: Getting started
-      url: /index.html
-      output: web, pdf
-      type: homepage   
-      
-  - title: Solidity Advanced Concepts
-    output: web, pdf
-    folderitems:    
-    
-    - title: : Transferring Ethereum between contracts
-      url: /index.html
-      output: web, pdf
-      type: homepage  
-
+      type: homepage     
+  
  
   - title: Dapps
     output: web, pdf
