@@ -187,8 +187,8 @@ entries:
       type: homepage
       
   - title: Articles and Blogs
-   output: web, pdf
-   folderitems: 
+    output: web, pdf
+    folderitems: 
 
     - title: Getting started
       url: /index.html
