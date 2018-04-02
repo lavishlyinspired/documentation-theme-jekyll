@@ -56,12 +56,7 @@ entries:
       url: /datatypes-and-arrays.html
       output: web, pdf
       type: homepage
-      
-     - title: Type conversion
-      url: /typeconversion.html
-      output: web, pdf
-      type: homepage
-      
+   
       
                
     - title: Datatypes and Arrays
