@@ -153,6 +153,26 @@ entries:
       type: homepage
       
       
+            
+  - title: Hyperledger
+    output: web, pdf
+    folderitems: 
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+
+  - title: Sawtooth
+    output: web, pdf
+    folderitems: 
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
       
       
       
