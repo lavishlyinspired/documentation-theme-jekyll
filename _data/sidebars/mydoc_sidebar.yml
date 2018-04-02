@@ -68,7 +68,12 @@ entries:
       output: web, pdf
       type: homepage
       
-      
+       
+                        
+    - title: Assembly - Web3 Js
+      url: /typeconversion.html
+      output: web, pdf
+      type: homepage
 
  
    
@@ -200,7 +205,16 @@ entries:
     output: web, pdf
     folderitems: 
 
-    - title: Getting started
+    - title: Python
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+  - title: Front End developement 
+    output: web, pdf
+    folderitems: 
+
+    - title: React JS
       url: /index.html
       output: web, pdf
       type: homepage
