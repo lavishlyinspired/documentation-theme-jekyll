@@ -210,41 +210,26 @@ entries:
       type: homepage
       
       
-  - title: Sample Projects Online
-     output: web, pdf
-     folderitems: 
+  - title: Game Development using Solidity 
+    output: web, pdf
+    folderitems: 
 
     - title: Getting Started
       url: /index.html
       output: web, pdf
       type: homepage
-
-
       
-            
-  - title: Understanding Hyperledger
+  - title: Game Development using Solidity 
     output: web, pdf
     folderitems: 
 
-    - title: Getting started
+    - title: Getting Started
       url: /index.html
       output: web, pdf
-      type: homepage
+      type: homepage     
+      
       
  
-  - title: Sawtooth
-    output: web, pdf
-    folderitems: 
-
-    - title: Getting started
-      url: /index.html
-      output: web, pdf
-      type: homepage 
-
-
-
-      
-      
       
       
    
