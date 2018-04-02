@@ -57,13 +57,12 @@ entries:
       output: web, pdf
       type: homepage
    
-      
-               
-    - title: Datatypes and Arrays
-      url: /typeconversion.html
+                     
+    - title: typeconversion
+      url: /datatypes-and-arrays.html
       output: web, pdf
       type: homepage
-  
+       
   - title: Dapps
     output: web, pdf
     folderitems:
