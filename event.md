@@ -1,5 +1,5 @@
 ---
-title: "Getting started with the Solidity Development"
+title: "Events and Loggers"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
