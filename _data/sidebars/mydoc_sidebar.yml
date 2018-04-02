@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: Basic Concepts
     output: web, pdf
     folderitems:
 
@@ -68,7 +68,7 @@ entries:
       output: web, pdf
       type: homepage
    
-  - title: Dapps using solidity
+  - title: Advanced Concepts
     output: web, pdf
     folderitems:
     
@@ -78,6 +78,16 @@ entries:
       type: homepage
       
   - title: Dapps using solidity
+    output: web, pdf
+    folderitems: 
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+      
+   - title: Creating a Crowdsale
     output: web, pdf
     folderitems: 
 
