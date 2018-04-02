@@ -177,13 +177,6 @@ entries:
       output: web, pdf
       type: homepage     
 
-
-entries:
-- title: sidebar
-  product: 
-  version: 
-  folders:
-
   - title:
     output: pdf
     type: frontmatter
