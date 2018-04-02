@@ -51,6 +51,14 @@ entries:
       output: web, pdf
       type: homepage
       
+               
+    - title: datatypes-and-arrays
+      url: /event.html
+      output: web, pdf
+      type: homepage
+      
+      
+      
   
   - title: Dapps
     output: web, pdf
