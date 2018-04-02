@@ -210,7 +210,7 @@ entries:
       type: homepage
       
       
-   - title: Sample Projects Online
+  - title: Sample Projects Online
      output: web, pdf
      folderitems: 
 
