@@ -69,17 +69,50 @@ entries:
       url: /typeconversion.html
       output: web, pdf
       type: homepage
-      
-        
-  - title: Create my own Crytocurrency
+   
+   
+   
+   - title: Practic
     output: web, pdf
     folderitems:
 
     - title: Getting started
       url: /index.html
       output: web, pdf
+      type: homepage   
+   
+   
+  - title: Solidity : Advanced Concepts
+    output: web, pdf
+    folderitems:
+
+    - title: Transferring Ethereum between contracts
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+      
+    - title: Public Verses External
+      url: /index.html
+      output: web, pdf
       type: homepage
          
+      - title: Time based Events
+      url: /index.html
+      output: web, pdf
+      type: homepage  
+      
+     - title: Ploymorphism
+      url: /index.html
+      output: web, pdf
+      type: homepage  
+      
+       
+     - title: Randomness and Gambling
+      url: /index.html
+      output: web, pdf
+      type: homepage 
+       
        
   - title: Dapps
     output: web, pdf
