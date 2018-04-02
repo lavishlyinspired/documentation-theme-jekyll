@@ -57,7 +57,10 @@ entries:
       output: web, pdf
       type: homepage
       
-      
+     - title: Type conversion
+      url: /typeconversion.html
+      output: web, pdf
+      type: homepage
       
   
   - title: Dapps
