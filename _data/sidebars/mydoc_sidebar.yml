@@ -31,8 +31,7 @@ entries:
     - title: Inheritance
       url: /Inheritance.html
       output: web, pdf
-      type: homepage
-      
+      type: homepage      
       
     - title: Modifiers
       url: /modifiers.html
