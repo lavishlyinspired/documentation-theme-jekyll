@@ -227,6 +227,16 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+      
+      
+   - title: Sample Projects Online
+    output: web, pdf
+    folderitems: 
+
+    - title: Getting Started
+      url: /index.html
+      output: web, pdf
+      type: homepage
 
 
 
