@@ -163,7 +163,15 @@ entries:
       output: web, pdf
       type: homepage
       
-      
+ 
+  - title: Sawtooth
+    output: web, pdf
+    folderitems: 
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage     
                  
   - title: Books/Resources/PDF/ Links
     output: web, pdf
@@ -175,14 +183,6 @@ entries:
       type: homepage
 
 
-  - title: Sawtooth
-    output: web, pdf
-    folderitems: 
-
-    - title: Getting started
-      url: /index.html
-      output: web, pdf
-      type: homepage
       
       
       
