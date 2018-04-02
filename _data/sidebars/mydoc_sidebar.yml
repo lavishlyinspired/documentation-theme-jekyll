@@ -176,20 +176,6 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage     
-
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter   
-      
       
   - title: Books/Resources/PDF/Links
     output: web, pdf
