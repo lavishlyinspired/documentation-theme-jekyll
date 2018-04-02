@@ -12,7 +12,7 @@ summary: These brief instructions will help you get started quickly with the sol
 
 let us begin with the most basic example. It is fine if you do not understand everything right now, we will go into more detail later.
 
-### A Simple Smart Contract
+### A Simple Smart Contract.
 
 <pre>
 ---
