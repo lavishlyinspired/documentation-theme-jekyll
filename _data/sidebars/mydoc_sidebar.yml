@@ -210,7 +210,7 @@ entries:
       output: web, pdf
       type: homepage
       
-  - title: Front End developement 
+  - title: Frontend and web3 Developement 
     output: web, pdf
     folderitems: 
 
