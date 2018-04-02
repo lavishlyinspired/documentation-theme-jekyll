@@ -52,8 +52,8 @@ entries:
       type: homepage
       
                
-    - title: datatypes-and-arrays
-      url: /event.html
+    - title: Datatypes and Arrays
+      url: /datatypes-and-arrays.html
       output: web, pdf
       type: homepage
       
