@@ -14,4 +14,10 @@ summary: These brief instructions will help you get started quickly with the sol
 
 ```
 This is the smart contract that you should copy and paste into the Remix IDE:
+
 ```
+
+
+<pre>
+Hello
+</pre>
