@@ -211,8 +211,8 @@ entries:
       
       
    - title: Sample Projects Online
-    output: web, pdf
-    folderitems: 
+     output: web, pdf
+     folderitems: 
 
     - title: Getting Started
       url: /index.html
