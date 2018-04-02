@@ -186,7 +186,17 @@ entries:
       output: web, pdf
       type: homepage
       
-   - title: Articles and Blogs
+  - title: Articles and Blogs
+   output: web, pdf
+   folderitems: 
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+      
+  - title: Artificial Intellgence and Blockchain
     output: web, pdf
     folderitems: 
 
@@ -194,6 +204,7 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+
 
 
       
