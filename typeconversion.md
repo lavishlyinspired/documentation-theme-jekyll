@@ -1,5 +1,5 @@
 ---
-title: "Modifiers and Error Handling in Solidity"
+title: "Type Conversion and Error Handling in Solidity"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
