@@ -72,57 +72,62 @@ entries:
     output: web, pdf
     folderitems:
     
-    - title: Getting started
+    - title:  Transferring Ethereum between contracts
       url: /index.html
       output: web, pdf
       type: homepage
     
-    - title: Getting started
+    - title: Public Verses External
       url: /index.html
       output: web, pdf
       type: homepage
       
-    - title: Getting started
+    - title: Time based Events
       url: /index.html
       output: web, pdf
       type: homepage
       
-    - title: Getting started
+    - title: Ploymorphism
       url: /index.html
       output: web, pdf
       type: homepage 
     
-    - title: Getting started
+    - title: Randomness and Gambling
       url: /index.html
       output: web, pdf
       type: homepage 
       
-    - title: Getting started
+    - title: Nested Arrays and Storage
       url: /index.html
       output: web, pdf
       type: homepage   
           
-    - title: Getting started
+    - title: Parameter Mapping and Return Values
       url: /index.html
       output: web, pdf
       type: homepage
       
-    - title: Getting started
+    - title: using Truffle Atom and TestRPC
       url: /index.html
       output: web, pdf
       type: homepage
       
-    - title: Getting started
+    - title: State Modifiers
       url: /index.html
       output: web, pdf
       type: homepage 
     
-    - title: Getting started
+    - title: Multi Signature Wallets
       url: /index.html
       output: web, pdf
       type: homepage
       
-    - title: Getting started
+    - title:  Auditing and Security
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Getting started with Browser
       url: /index.html
       output: web, pdf
       type: homepage
