@@ -70,24 +70,7 @@ entries:
       
       
 
-entries:
-- title: sidebar
-  product: 
-  version: 
-  folders:
-
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter  
+ 
    
   - title: Advanced Concepts
     output: web, pdf
@@ -193,7 +176,26 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage     
-                 
+
+
+entries:
+- title: sidebar
+  product: 
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter                  
   - title: Books/Resources/PDF/ Links
     output: web, pdf
     folderitems: 
