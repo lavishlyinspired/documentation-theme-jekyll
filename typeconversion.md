@@ -1,12 +1,12 @@
-
 ---
-title: "Type conversion"
+title: "Modifiers and Error Handling in Solidity"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
-permalink: typeconversion
+permalink: modifiers
 summary: These brief instructions will help you get started quickly with the solidity development.
 ---
+
 
 ## Modifiers: Introduction
 
