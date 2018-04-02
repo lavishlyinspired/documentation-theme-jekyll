@@ -92,8 +92,7 @@ entries:
       
   - title: Solidity : Advanced Concepts
     output: web, pdf
-    folderitems:
-    
+    folderitems:    
     
     - title: : Transferring Ethereum between contracts
       url: /index.html
