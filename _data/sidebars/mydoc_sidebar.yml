@@ -81,7 +81,7 @@ entries:
       type: homepage   
    
      
-   - title: Develop an ICO / crowd sale
+   - title: Develop an ICO or crowd sale
     output: web, pdf
     folderitems:
 
@@ -90,7 +90,7 @@ entries:
       output: web, pdf
       type: homepage   
       
-  - title: Solidity : Advanced Concepts
+  - title: Solidity Advanced Concepts
     output: web, pdf
     folderitems:    
     
