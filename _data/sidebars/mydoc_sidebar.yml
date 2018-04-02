@@ -45,6 +45,12 @@ entries:
       output: web, pdf
       type: homepage
       
+         
+    - title: Events and loggers
+      url: /event.html
+      output: web, pdf
+      type: homepage
+      
   
   - title: Dapps
     output: web, pdf
