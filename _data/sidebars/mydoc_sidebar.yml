@@ -76,6 +76,35 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
+    
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+      
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage 
+    
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage  
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+     
+      
+      
+    
       
   - title: Dapps using solidity
     output: web, pdf
