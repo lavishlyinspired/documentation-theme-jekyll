@@ -81,3 +81,13 @@ entries:
       output: web, pdf
       type: homepage
       
+      
+   - title: Develop Crowdsale
+    output: web, pdf
+    folderitems:
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage    
+      
