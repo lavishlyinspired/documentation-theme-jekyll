@@ -58,10 +58,28 @@ entries:
       type: homepage
    
                      
-    - title: typeconversion
+    - title: Type Conversion in Solidity
       url: /typeconversion.html
       output: web, pdf
       type: homepage
+      
+      
+                        
+    - title: Assembly - Functional and Instructional
+      url: /typeconversion.html
+      output: web, pdf
+      type: homepage
+      
+        
+  - title: Create my own Crytocurrency
+    output: web, pdf
+    folderitems:
+
+    - title: Getting started
+      url: /index.html
+      output: web, pdf
+      type: homepage
+         
        
   - title: Dapps
     output: web, pdf
