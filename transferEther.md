@@ -54,4 +54,5 @@ This is the smart contract that you should copy and paste into the Remix IDE:
             address(_instance).send(msg.value);
         }
     }
-    </pre>
+    
+  </pre>
