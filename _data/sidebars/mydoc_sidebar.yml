@@ -168,7 +168,7 @@ entries:
     folderitems: 
 
     - title: Getting started
-      url: /index.html
+      url: /resources.html
       output: web, pdf
       type: homepage
       
