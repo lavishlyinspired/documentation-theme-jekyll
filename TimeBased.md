@@ -22,7 +22,7 @@ This is the smart contract that you should copy and paste into the Remix IDE:
 
     pragma solidity ^0.4.0;
 
-contract TimeBased {
+    contract TimeBased {
     
     mapping(address => uint) public _balanceOf;
     mapping(address => uint) public _expiryOf;
@@ -74,18 +74,18 @@ contract TimeBased {
         returns (uint) {
         return _expiryOf[_addr];
     }
-}
-    </pre>
+    }
+ </pre>
     
     
-    <pre>
-    pragma solidity ^0.4.0;
-
-interface AlarmWakeUp {
+   <pre>
+   
+     pragma solidity ^0.4.0;
+    interface AlarmWakeUp {
     function callback(bytes _data) public;
-}
+    }
 
-contract AlarmService {
+    contract AlarmService {
     
     struct TimeEvent {
         address addr;
@@ -110,9 +110,9 @@ contract AlarmService {
             AlarmWakeUp(timeEvents[i].addr).callback(timeEvents[i].data);
         }
     }
-}
+    }
 
-contract AlarmTrigger is AlarmWakeUp {
+    contract AlarmTrigger is AlarmWakeUp {
     
     AlarmService private _alarmService;
     
@@ -130,5 +130,5 @@ contract AlarmTrigger is AlarmWakeUp {
         _alarmService.set(block.timestamp+60);
     }
     
-}
-    </pre>
+    }
+   </pre>
