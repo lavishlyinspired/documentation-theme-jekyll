@@ -1,5 +1,5 @@
 ---
-title: "instructionalAssembly"
+title: "instructionalAssembly and FunctionalAssembly"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
@@ -70,6 +70,9 @@ This is the smart contract that you should copy and paste into the Remix IDE:
     }
 }
 </pre>
+
+
+## FunctionalAssembly: Introduction
 
 <pre>
 
