@@ -18,7 +18,7 @@ let us begin with the most basic example. It is fine if you do not understand ev
 <colgroup>
 <col width="15%" />
 <col width="40%" />
-<col width="50%" />
+<col width="40%" />
 </colgroup>
 <thead>
 <tr class="header">
