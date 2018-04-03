@@ -10,7 +10,7 @@ summary: These brief instructions will help you get started quickly with the sol
 
 ## Transferring Ether: Introduction
 
-### The Smart Contract
+### The Smart Contract.
 
 ```
 This is the smart contract that you should copy and paste into the Remix IDE:
