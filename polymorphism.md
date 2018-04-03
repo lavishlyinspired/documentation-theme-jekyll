@@ -79,4 +79,4 @@ This is the smart contract that you should copy and paste into the Remix IDE:
             }    
         }
     }
-    </pre>
+ </pre>
