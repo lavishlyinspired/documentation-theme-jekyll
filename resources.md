@@ -33,6 +33,12 @@ let us begin with the most basic example. It is fine if you do not understand ev
 <td markdown="span">https://blockgeeks.com/</td>
 <td markdown="span">https://blockgeeks.com/</td>
 </tr>
+    
+    <tr>
+<td markdown="span">Bitdegree</td>
+<td markdown="span">https://www.bitdegree.org//</td>
+<td markdown="span">https://www.bitdegree.org//</td>
+</tr>
     <tr>
 <td markdown="span">import</td>
 <td markdown="span">Solidity allows a source file to import other source files</td>
