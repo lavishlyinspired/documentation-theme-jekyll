@@ -87,7 +87,7 @@ entries:
       type: homepage
     
     - title: Public Verses External
-      url: /index.html
+      url: /PublicExternal.html
       output: web, pdf
       type: homepage
       
