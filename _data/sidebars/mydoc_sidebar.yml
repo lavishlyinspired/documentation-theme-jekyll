@@ -82,7 +82,7 @@ entries:
     folderitems:
     
     - title:  Transferring Ethereum between contracts
-      url: /index.html
+      url: /transferEther.html
       output: web, pdf
       type: homepage
     
