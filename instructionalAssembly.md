@@ -7,7 +7,7 @@ permalink: instructionalAssembly
 summary: These brief instructions will help you get started quickly with the solidity development.
 ---
 
-## Modifiers: Introduction
+## instructionalAssembly: Introduction
 
 ### The Smart Contract
 
@@ -16,9 +16,9 @@ This is the smart contract that you should copy and paste into the Remix IDE:
 ```
 
 <pre>
-pragma solidity ^0.4.0;
-
-contract Assembly {
+        
+    pragma solidity ^0.4.0;
+    contract Assembly {
     function nativeLoops() public returns (uint _r) {
         for(uint i = 0; i < 10; i++) {
             _r++;
