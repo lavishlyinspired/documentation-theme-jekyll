@@ -29,9 +29,9 @@ let us begin with the most basic example. It is fine if you do not understand ev
 </thead>
 <tbody>
 <tr>
-<td markdown="span">library</td>
-<td markdown="span">Solidity provides the concept of Libraries to create reusable code that can be called from different contracts. You can think of library to bea similar to static functions in a static class in other object oriented programming languages. Libraries like contracts have to be deployed in order to be used</td>
-<td markdown="span">Solidity provides the concept of Libraries to create reusable code that can be called from different contracts. You can think of library to be similar to static functions in a static class in other object oriented programming languages. Libraries like contracts have to be deployed in order to be used</td>
+<td markdown="span">Blockgeeks</td>
+<td markdown="span">https://blockgeeks.com/</td>
+<td markdown="span">https://blockgeeks.com/</td>
 </tr>
     <tr>
 <td markdown="span">import</td>
