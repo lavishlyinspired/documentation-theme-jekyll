@@ -1,5 +1,5 @@
 ---
-title: "Type Conversion"
+title: "crowdsale"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
