@@ -157,7 +157,7 @@ entries:
     folderitems: 
 
     - title: Getting started
-      url: /index.html
+      url: /crowdsale.html
       output: web, pdf
       type: homepage
       
