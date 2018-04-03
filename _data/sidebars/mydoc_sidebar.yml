@@ -97,7 +97,7 @@ entries:
       type: homepage
       
     - title: Ploymorphism
-      url: /index.html
+      url: /ploymorphism.html
       output: web, pdf
       type: homepage 
     
