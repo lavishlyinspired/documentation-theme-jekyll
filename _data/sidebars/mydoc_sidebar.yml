@@ -92,7 +92,7 @@ entries:
       type: homepage
       
     - title: Time based Events
-      url: /index.html
+      url: /TimeBased.html
       output: web, pdf
       type: homepage
       
