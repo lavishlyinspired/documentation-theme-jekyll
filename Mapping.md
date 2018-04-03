@@ -8,7 +8,7 @@ summary: These brief instructions will help you get started quickly with the sol
 ---
 
 
-## Modifiers: Introduction
+## Mapping: Introduction
 
 ### The Smart Contract
 
@@ -22,66 +22,96 @@ This is the smart contract that you should copy and paste into the Remix IDE:
 
     pragma solidity ^0.4.0;
 
-    library Strings {
+    contract Casino {
     
-    function concat(string _base, string _value) internal returns (string) {
-        bytes memory _baseBytes = bytes(_base);
-        bytes memory _valueBytes = bytes(_value);
-        
-        string memory _tmpValue = new string(_baseBytes.length + _valueBytes.length);
-        bytes memory _newValue = bytes(_tmpValue);
-        
-        uint i;
-        uint j;
-        
-        for(i=0;i<_baseBytes.length;i++) {
-            _newValue[j++] = _baseBytes[i];
-        }
-        
-        for(i=0;i<_valueBytes.length;i++) {
-            _newValue[j++] = _valueBytes[i];
-        }
-        
-        return string(_newValue);
+    uint private start;
+    
+    uint private buyPeriod = 1000;
+    uint private verifyPeriod = 100;
+    uint private checkPeriod = 100;
+    
+    mapping(address => uint) private _tickets;
+    mapping(address => uint) private _winnings;
+
+    address[] _entries;
+    address[] _verified;
+
+    uint private winnerSeed;
+    bool private hasWinner;
+    address private winner;
+    
+    function Casino()
+        public {
+        start = block.timestamp;    
     }
     
-    function strpos(string _base, string _value) internal returns (int) {
-        bytes memory _baseBytes = bytes(_base);
-        bytes memory _valueBytes = bytes(_value);
-
-        assert(_valueBytes.length == 1);        
-        
-        for(uint i=0;i<_baseBytes.length;i++) {
-            if (_baseBytes[i] == _valueBytes[0]) {
-                return int(i);
-            }
-        }
-        
-        return -1;
+    /**
+     * This should NOT be part of the contract!!
+     */
+    function unsafeEntry(uint number, uint salt) 
+        public
+        payable
+        returns (bool) {
+        return buyTicket(generateHash(number, salt));
     }
     
-}
-
-
-```
-Another example
-```
-
-    <pre>
-
-        pragma solidity ^0.4.0;
-        import "browser/Strings.sol";
-
-        contract TestStrings {
-
-        using Strings for string;
-
-        function testConcat(string _base) returns (string) {
-            return _base.concat("_suffix");
-        }
-
-        function needleInHaystack(string _base) returns (int) {
-            return _base.strpos("t");
-        }
+    function generateHash(uint number, uint salt)
+        public
+        pure
+        returns (uint) {
+        return uint(keccak256(number + salt));
     }
-    </pre>
+    
+    function buyTicket(uint hash)
+        public
+        payable
+        returns (bool) {
+        // Within the timeframe
+        require(block.timestamp < start+buyPeriod);
+        // Correct amount
+        require(1 ether == msg.value);
+        // 1 entry per address
+        require(_tickets[msg.sender] == 0);
+        _tickets[msg.sender] = hash;
+        _entries.push(msg.sender);
+        return true;
+    }
+    
+    function verifyTicket(uint number, uint salt)
+        public
+        returns (bool) {
+        // Within the timeframe
+        require(block.timestamp >= start+buyPeriod);
+        require(block.timestamp < start+buyPeriod+verifyPeriod);
+        // Has a valid entry
+        require(_tickets[msg.sender] > 0);
+        // Validate hash
+        require(salt > number);
+        require(generateHash(number, salt) == _tickets[msg.sender]);
+        winnerSeed = winnerSeed ^ salt ^ uint(msg.sender);
+        _verified.push(msg.sender);
+    }
+    
+    function checkWinner()
+        public
+        returns (bool) {
+        // Within the timeframe
+        require(block.timestamp >= start+buyPeriod+verifyPeriod);
+        require(block.timestamp < start+buyPeriod+verifyPeriod+checkPeriod);
+        if (!hasWinner) {
+            winner = _verified[winnerSeed % _verified.length];
+            _winnings[winner] = _verified.length-10 ether;
+            hasWinner = true;
+        }
+        return msg.sender == winner;
+    }
+    
+    function claim()
+        public {
+        // Has winnings to claim
+        require(_winnings[msg.sender] > 0);
+        msg.sender.transfer(_winnings[msg.sender]);
+        _winnings[msg.sender] = 0;
+    }
+    }
+</pre>
