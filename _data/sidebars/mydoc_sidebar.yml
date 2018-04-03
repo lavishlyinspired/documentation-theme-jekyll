@@ -117,7 +117,7 @@ entries:
       type: homepage
       
     - title: using Truffle Atom and TestRPC
-      url: /index.html
+      url: /truffle.html
       output: web, pdf
       type: homepage
       
